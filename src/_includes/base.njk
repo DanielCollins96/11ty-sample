@@ -7,10 +7,17 @@
   <title>Document</title>
   <title>{{ title }}</title>
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
   </head>
   <body>
   <header>
     <h1>{{ title }}</h1>
+    <ul class="nav-list">
+      <li class="nav-link">Home</li>
+      <li class="nav-link">About Me</li>
+      <li class="nav-link">Posts</li>
+    </ul>
   </header>
   <article>
     {{ content | safe }}
