@@ -1,6 +1,0 @@
----
-title: Page One
-layout: layout.html
----
-
-This is the first page
