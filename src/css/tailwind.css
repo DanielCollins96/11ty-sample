@@ -551,6 +551,26 @@ video {
   height: auto;
 }
 
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 226, 226, var(--tw-bg-opacity))
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .container {
   width: 100%;
 }
@@ -187385,3 +187405,4 @@ video {
     --tw-backdrop-sepia: sepia(100%);
   }
 }
+  
