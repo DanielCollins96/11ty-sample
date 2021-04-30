@@ -1,5 +1,5 @@
 ---
 title: About Me
-layout: layout.html
+layout: layout
 ---
-# IM ME I DO ME AND I CHILL
+## IM ME I DO ME AND I CHILL

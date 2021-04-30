@@ -1,6 +1,6 @@
 ---
 title: Home Page
-layout: layout.html
+layout: layout
 reasons:
     - I got swag
     - Im in the streets everyday b
@@ -10,7 +10,7 @@ reasons:
 
 ## This is the Home page homie
 
-### Reasons why you might hit my jack:
+### Reasons why you might hit my jack
 
 {% for reason in reasons %}
 - {{ reason }}
