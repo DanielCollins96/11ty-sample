@@ -6,8 +6,8 @@ values:
     - two
     - three
 tags: 
-    - genitalia
-    - penis
+    - exciting
+    - historic
 ---
 
 ## Post List
