@@ -1,13 +1,25 @@
+:root {
+    --primary: aquamarine;
+    --secondary: red;
+}
+
 body {
-    /* margin: 0; */
+    margin: 0;
     /* padding: 0;; */
-    background-color: aquamarine;
-    color: red;
+    background-color: var(--primary);
+    color: var(--secondary);
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    border-bottom: lightgrey 1px dotted;
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary);
 }
 
 .nav-list {
