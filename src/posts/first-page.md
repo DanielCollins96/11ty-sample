@@ -1,6 +1,11 @@
 ---
 title: Post One
-layout: layout
+layout: layouts/page
+tags: 
+- test
+- posts
 ---
 
-This is the first page
+## This is the first page
+
+

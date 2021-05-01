@@ -1,6 +1,8 @@
 ---
 title: Post Two
-layout: layout
+layout: layouts/page
 ---
 
-This is the Second page
+## This is the Second page
+
+- Why

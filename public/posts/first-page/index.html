@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +7,10 @@
     <title>Post One </title>
     
     <link rel="stylesheet" href="/css/tailwind.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    
+    
   </head>
-  <body>
+  <body class="flex flex-col h-full">
   <header class="flex justify-between p-4 border-b border-gray-300 border-dotted">
     <h1 class="place-self-center">A Tangerine</h1>
     <ul class="flex">
@@ -19,10 +19,16 @@
       <li class="m-2"><a href="/posts">Posts</a></li>
     </ul>
   </header>
-  <article class="w-4/5 m-auto min-h-screen">
-    <p>This is the first page</p>
+  <main class="flex-1 prose"> 
+    <article class="prose my-2 p-4  bg-gray-100 rounded">
+    <h2>This is the first page</h2>
 
-  </article>
+</article>
+
+  </main>
+  <aside>
+  
+  </aside>
   <footer>
     <p>&copy; 2021 Daniel Collins</p>
   </footer>

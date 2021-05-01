@@ -1,5 +1,5 @@
 ---
 title: About Me
-layout: layout
+layout: layouts/layout
 ---
 ## IM ME I DO ME AND I CHILL

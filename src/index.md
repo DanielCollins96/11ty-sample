@@ -1,6 +1,6 @@
 ---
 title: Home Page
-layout: layout
+layout: layouts/layout
 reasons:
     - I got swag
     - Im in the streets everyday b
